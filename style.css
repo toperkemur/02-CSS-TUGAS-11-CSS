@@ -1,0 +1,44 @@
+main{
+  background-color: #F1F1F1;
+  padding: 10px;
+}
+
+ul{
+  background: black;
+  margin: 0;
+  padding: 10px;
+}
+
+li{
+  display: inline-block;
+  width: 70px;
+
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+p{
+  column-count: 4;
+  column-fill: balance;
+  text-align: justify;
+  column-rule: 2px solid black;
+  column-gap: 20px;
+}
+
+footer{
+  background: black;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+
+footer h2{
+  font-size: 16px;
+}
